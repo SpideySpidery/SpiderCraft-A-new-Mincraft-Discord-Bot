@@ -1,23 +1,5 @@
-<h1 align="center">WumpCraft</h1>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DayColor/wumpcraft/master/assets/header.png?token=AJBO3S5JYVPP4K4E2AW25C25D5ENU"/>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
-  </a>
-</p>
+<h1 align="center">SpiderCraft</h1>
 
-## Bot
-* Invite the bot to your server [here](https://discordapp.com/oauth2/authorize?client_id=592667565898334208&scope=bot&permissions=268774480)
-* Join the bot test server [here](https://discord.gg/VUu7zSF)
-* Visit the website for any additional information [here](https://wumpcraft.alonlivne.dev/)
-
-## About
-WumpCraft was constructed exclusively for Discord Hack Week 2019 by DayColor#0001.
-The bot is based on the video game [Minecraft](https://www.minecraft.net/en-us/) and essentially converts the Minecraft experience to 2D emojis canvas in Discord.
-The bot does not use any external APIs besides Discord.js.
 ### Features
 * World view with over 20 types of blocks.
 * Achievements system to gain score.
@@ -37,30 +19,3 @@ The bot does not use any external APIs besides Discord.js.
 * Multi-server support.
 
 And much more!
-
-## Deployment
-To deploy the bot you will need to install NodeJS 10 or higher.
-1. Run the next commands:
-```console
-git clone https://github.com/DayColor/wumpcraft wumpcraft
-cd wumpcraft
-npm install
-```
-2. Replace ```'Your Token Goes Here'``` in app.js with your bot token.
-3. Run ```npm start```
-
-## Permissions
-### General Permissions
-- [x] Manage Roles
-- [x] Manage Channels
-- [x] View Channels
-
-### Text Permissions
-- [x] Send Messages
-- [x] Manage Messages
-- [x] Read Message History
-- [x] Use External Emojis
-- [x] Add Reactions
-
-## License
-[MIT](LICENSE)
