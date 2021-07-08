@@ -1,0 +1,60 @@
+{
+  "name": "wumpcraft",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": {
+    "name": "Alon Livne",
+    "url": "https://daycolor.org"
+  },
+  "license": "MIT",
+  "description": "Discord bot for the first Hack Week contest.",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "bugs": {
+    "url": "https://github.com/DayColor/wumpcraft/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DayColor/wumpcraft"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "cross-env NODE_ENV=development eslint --cache --format=pretty",
+      "prettier --ignore-path .eslintignore --single-quote --write",
+      "git add"
+    ],
+    "{*.json,.{babelrc,eslintrc,prettierrc,stylelintrc}}": [
+      "prettier --ignore-path .eslintignore --parser json --write",
+      "git add"
+    ],
+    "*.{css,scss}": [
+      "stylelint --ignore-path .eslintignore --syntax scss --fix",
+      "prettier --ignore-path .eslintignore --single-quote --write",
+      "git add"
+    ],
+    "*.{yml,md}": [
+      "prettier --ignore-path .eslintignore --single-quote --write",
+      "git add"
+    ]
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "hack week",
+    "minecraft"
+  ],
+  "devEngines": {
+    "node": ">=10.x"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^5.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "prettier": "^1.18.2"
+  }
+}

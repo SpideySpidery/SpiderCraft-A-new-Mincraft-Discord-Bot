@@ -1,0 +1,15 @@
+# Packages
+node_modules/
+package-lock.json
+
+# Saves
+saves/
+
+# World backups
+*backup.json
+
+# WebStorm settings
+.idea
+
+# Environmental settings
+.env
